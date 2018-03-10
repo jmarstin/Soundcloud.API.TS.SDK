@@ -1,2 +1,2 @@
 # Soundcloud.API.TS.SDK
-Soundcloud API TS typescript SDK - Migrated from JS javascript
+This project is to migrate the soundcloud API wrapper over from JS to TS. Might be somewhat pointless as it is maintained by soundcloud, but it will bring some benefits. So let's go.
