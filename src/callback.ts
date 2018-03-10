@@ -1,5 +1,5 @@
-const qs = require('query-string');
-const dialogStore = require('./dialog/store');
+import qs = require('query-string');
+import dialogStore = require('./dialog/store');
 
 module.exports = {
   /**

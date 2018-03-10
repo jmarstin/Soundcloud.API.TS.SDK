@@ -1,7 +1,7 @@
-const audioContext = require('./audiocontext');
-const getUserMedia = require('./getusermedia');
-const Promise = require('es6-promise').Promise;
-const RecorderJS = require('../../vendor/recorderjs/recorder');
+import audioContext = require('./audiocontext');
+import getUserMedia = require('./getusermedia');
+import Promise = require('es6-promise').Promise;
+import RecorderJS = require('../../vendor/recorderjs/recorder');
 
 
 /**

@@ -1,6 +1,6 @@
-const config = require('./config');
-const form = require('form-urlencoded');
-const Promise = require('es6-promise').Promise;
+import config = require('./config');
+import form = require('form-urlencoded');
+import Promise = require('es6-promise').Promise;
 
 const sendRequest = (method, url, data, progress) => {
   let xhr;

@@ -1,6 +1,6 @@
-const config = require('./config');
-const Dialog = require('./dialog/dialog');
-const Promise = require('es6-promise').Promise;
+import config = require('./config');
+import Dialog = require('./dialog/dialog');
+import Promise = require('es6-promise').Promise;
 
 /**
  * Sets the oauth_token to the value that was provided by the callback

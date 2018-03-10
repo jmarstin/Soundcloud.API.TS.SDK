@@ -1,7 +1,7 @@
-const deferred = require('../deferred');
-const dialogStore = require('./store');
-const popup = require('./popup');
-const qs = require('query-string');
+import deferred = require('../deferred');
+import dialogStore = require('./store');
+import popup = require('./popup');
+import qs = require('query-string');
 
 const ID_PREFIX = 'SoundCloud_Dialog';
 

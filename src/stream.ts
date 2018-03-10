@@ -1,11 +1,11 @@
-const api = require('./api');
-const config = require('./config');
-const playerApi = require('./player-api');
-const SCAudio = require('../vendor/playback/playback').SCAudio;
-const StreamUrlRetriever = require('../vendor/playback/playback').SCAudioPublicApiStreamURLRetriever.StreamUrlRetriever;
-const MaestroHTML5Player = require('../vendor/playback/playback').MaestroHTML5Player.HTML5Player;
-const MaestroHLSMSEPlayer = require('../vendor/playback/playback').MaestroHLSMSEPlayer.HLSMSEPlayer;
-const stringLoader = require('../vendor/playback/playback').MaestroLoaders.stringLoader;
+import api = require('./api');
+import config = require('./config');
+import playerApi = require('./player-api');
+import SCAudio = require('../vendor/playback/playback').SCAudio;
+import StreamUrlRetriever = require('../vendor/playback/playback').SCAudioPublicApiStreamURLRetriever.StreamUrlRetriever;
+import MaestroHTML5Player = require('../vendor/playback/playback').MaestroHTML5Player.HTML5Player;
+import MaestroHLSMSEPlayer = require('../vendor/playback/playback').MaestroHLSMSEPlayer.HLSMSEPlayer;
+import stringLoader = require('../vendor/playback/playback').MaestroLoaders.stringLoader;
 
 const SNIPPET_FADEOUT = 3000; // ms
 

@@ -1,4 +1,4 @@
-const Promise = require('es6-promise').Promise;
+import Promise = require('es6-promise').Promise;
 
 module.exports = function(){
   let deferred = {};

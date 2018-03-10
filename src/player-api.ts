@@ -1,6 +1,6 @@
-const BackboneEvents = require('backbone-events-standalone');
-const { errors: { PlayerFatalError }, State } = require('../vendor/playback/playback').MaestroCore;
-const { errors: { GeoBlockedError, NoStreamsError, TimedOutError, NotSupportedError } } = require('../vendor/playback/playback').SCAudio;
+import BackboneEvents = require('backbone-events-standalone');
+import { errors: { PlayerFatalError }, State } = require('../vendor/playback/playback').MaestroCore;
+import { errors: { GeoBlockedError, NoStreamsError, TimedOutError, NotSupportedError } } = require('../vendor/playback/playback').SCAudio;
 
 const TIMEUPDATE_INTERVAL = 1000 / 60;
 
